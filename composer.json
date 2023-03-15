@@ -1,17 +1,22 @@
 {
-    "name":        "arcanedev/localization",
+    "name": "dfynest/localization",
     "description": "Localization Package for Laravel",
-    "keywords":    ["arcanedev", "laravel", "localization", "localisation", "i18n"],
-    "homepage":    "https://github.com/ARCANEDEV/Localization",
+    "keywords": [
+        "laravel",
+        "localization",
+        "localisation",
+        "i18n"
+    ],
+    "homepage": "https://github.com/dfynest/Localization",
     "authors": [
         {
-            "name":     "ARCANEDEV",
-            "email":    "arcanedev.maroc@gmail.com",
-            "homepage": "https://github.com/arcanedev-maroc",
-            "role":     "Developer"
+            "name": "dfynest",
+            "email": "imdfynest@gmail.com",
+            "homepage": "https://github.com/dfynest",
+            "role": "Developer"
         }
     ],
-    "type":    "library",
+    "type": "library",
     "license": "MIT",
     "require": {
         "php": "^8.0",
@@ -27,13 +32,15 @@
     },
     "autoload": {
         "psr-4": {
-            "Arcanedev\\Localization\\": "src/"
+            "dfynest\\Localization\\": "src/"
         },
-        "files": ["helpers.php"]
+        "files": [
+            "helpers.php"
+        ]
     },
     "autoload-dev": {
         "psr-4": {
-            "Arcanedev\\Localization\\Tests\\": "tests/"
+            "dfynest\\Localization\\Tests\\": "tests/"
         }
     },
     "scripts": {
@@ -47,8 +54,8 @@
         },
         "laravel": {
             "providers": [
-                "Arcanedev\\Localization\\LocalizationServiceProvider",
-                "Arcanedev\\Localization\\Providers\\DeferredServicesProvider"
+                "dfynest\\Localization\\LocalizationServiceProvider",
+                "dfynest\\Localization\\Providers\\DeferredServicesProvider"
             ]
         }
     },

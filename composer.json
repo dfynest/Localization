@@ -20,7 +20,8 @@
     "license": "MIT",
     "require": {
         "php": "^8.0",
-        "ext-json": "*"
+        "ext-json": "*",
+        "dfynest/support": "*"
     },
     "require-dev": {
         "ext-intl": "*",

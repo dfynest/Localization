@@ -21,7 +21,7 @@
     "require": {
         "php": "^8.0",
         "ext-json": "*",
-        "arcanedev/support": "^9.0"
+        "dfynest/support": "^9.0"
     },
     "require-dev": {
         "ext-intl": "*",
